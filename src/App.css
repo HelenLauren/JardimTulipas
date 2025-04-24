@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .canvas-container {
+    position: relative;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 90vw;
+    max-width: 800px;
+    height: 500px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .water-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3cb371;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .reset-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3cb371;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #2e8b57;
+    transform: scale(1.05);
+  }
+  
+  .cloud {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    animation: float 60s linear infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
