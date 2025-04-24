@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+🌷 Visão Geral
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jardim Digital de Tulipas é uma experiência interativa simples desenvolvida em p5.js, que simula o crescimento de tulipas em um jardim digital. Para o TDE da matéria de 3° período HTML5 Canvas e Games.
 
-## Available Scripts
+O projeto inclui:
 
-In the project directory, you can run:
+Plantio interativo de tulipas com clique do mouse
 
-### `npm start`
+Animação do crescimento das flores
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Botão de reinício para limpar o jardim
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🛠 Tecnologias e Conceitos Utilizados
 
-### `npm test`
+p5.js: Biblioteca para criação gráfica e interações
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+JavaScript (ES6+): Lógica de crescimento e renderização das tulipas
 
-### `npm run build`
+HTML5 Canvas: Renderização das flores e ambiente do jardim
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+CSS: Estilização do botão de reinício e layout da página
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📌 Conceitos em Prática
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✔ Programação Orientada a Objetos (POO) → Classe Tulipa (cor, posição, tamanho, estado de crescimento)
+✔ Interação com o Usuário → Clique para plantar, botão para reiniciar
+✔ Animações → Crescimento progressivo das flores no canvas
+✔ Aleatoriedade Controlada → Tulipas com variações visuais únicas
+✔ Design Responsivo e Estético → Cores suaves e disposição equilibrada
 
-### `npm run eject`
+🌼 Como Interagir
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clique com o mouse → Cresce as tulipas nos seus estágios de desenvolvimento.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Botão "Recomeçar Jardim" → Limpa todas as tulipas do canvas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🖼️ Resultado visual
 
-## Learn More
+🎥 Vídeo Demonstrativo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://github.com/user-attachments/assets/6c7f6f6d-9428-4257-b443-69f3bdf9b0e7
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
